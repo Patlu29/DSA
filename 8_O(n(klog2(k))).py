@@ -8,11 +8,11 @@ def result(strings):
                 print(digits)
                 
         if digits >= len(string) / 2:
-            strings[i] = sorted(strings[i])
+            strings[i] = sorted(strings[i]) # sorting method defaultly take log2(n) complexity
             print(strings)
             
     return strings
-    
+   
 print(result(["HELLO"]))
 
 """
